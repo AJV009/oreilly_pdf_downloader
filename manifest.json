@@ -1,0 +1,10 @@
+{
+    "name": "Oreilly PDF Downloader",
+    "version": "1.0",
+    "description": "Lets you download Oreilly Books in a a single click.",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "js": ["html2pdf.bundle.min.js", "content.js"],
+        "matches": ["https://learning.oreilly.com/library/view/*"]
+      }]
+  }
